@@ -21,7 +21,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/yangzongzhuan/RuoYi-Vue3.git
+git clone https://github.com/KeenTeam1990/VUE3.git
 
 # 进入项目目录
 cd RuoYi-Vue3
