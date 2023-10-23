@@ -17,6 +17,7 @@
 import variables from '@/assets/styles/variables.module.scss'
 import logo from '@/assets/logo/logo.png'
 import useSettingsStore from '@/store/modules/settings'
+import { computed } from 'vue';
 
 defineProps({
   collapse: {
@@ -28,6 +29,7 @@ defineProps({
 const title = ref('若依管理系统');
 const settingsStore = useSettingsStore();
 const sideTheme = computed(() => settingsStore.sideTheme);
+
 </script>
 
 <style lang="scss" scoped>
