@@ -79,6 +79,7 @@
 import { ElMessageBox, emptyProps } from "element-plus";
 import { getCodeImg, register } from "@/api/login";
 import { computed, watch } from "vue";
+import { fa } from "element-plus/es/locale";
 
 const router = useRouter();
 const { proxy } = getCurrentInstance();
