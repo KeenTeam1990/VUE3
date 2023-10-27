@@ -146,6 +146,7 @@ function handleRegister() {
         }).then(() => {
           router.push("/login");
         }).catch(() => {});
+
       }).catch(() => {
         loading.value = false;
         if (captchaEnabled) {
