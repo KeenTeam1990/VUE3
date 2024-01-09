@@ -17,6 +17,7 @@
           <close class="el-icon-close" style="width: 1em; height: 1em;vertical-align: middle;" />
         </span>
       </router-link>
+      
     </scroll-pane>
     <ul v-show="visible" :style="{ left: left + 'px', top: top + 'px' }" class="contextmenu">
       <li @click="refreshSelectedTag(selectedTag)">

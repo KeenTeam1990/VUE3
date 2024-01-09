@@ -30,6 +30,7 @@ import variables from '@/assets/styles/variables.module.scss'
 import useAppStore from '@/store/modules/app'
 import useSettingsStore from '@/store/modules/settings'
 import usePermissionStore from '@/store/modules/permission'
+import { computed } from 'vue'
 
 const route = useRoute();
 const appStore = useAppStore()
@@ -44,7 +45,6 @@ const isCollapse = computed(() => !appStore.sidebar.opened);
 
 const activeMenu = computed(() => {
   const { meta, path } = route;
-  // if set path, the sidebar will highlight the path you set
   if (meta.activeMenu) {
     return meta.activeMenu;
   }
